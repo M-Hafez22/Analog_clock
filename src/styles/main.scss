@@ -1,0 +1,19 @@
+@import 'config';
+
+body{
+  height: 100vh;
+  @include flexCenter;
+  overflow: hidden;
+  background: #1f4037;  
+  background: linear-gradient(to right, $bg-clr-light, $bg-clr-dark); 
+}
+
+#clock{ 
+  z-index: 1;
+  width: 550px;
+  height: 550px;
+  background: $clock-bg;
+  border: 15px solid $clr-dark;
+  border-radius: 50%;
+  box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);
+}
