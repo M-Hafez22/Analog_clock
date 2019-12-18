@@ -5,7 +5,9 @@ $bg-clr-dark: #1f4037;
 $clock-bg: #dfdfdf;
 $hand : 170px;
 
-*{
+*,
+*::after,
+*::before{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
