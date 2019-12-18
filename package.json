@@ -1,0 +1,16 @@
+{
+  "name": "analog_clock",
+  "version": "1.0.0",
+  "description": "A simple Analog Clock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "pord": "parcel build src/index.html"
+  },
+  "author": "M_Hafez",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7"
+  }
+}
