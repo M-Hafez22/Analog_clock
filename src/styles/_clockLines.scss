@@ -4,8 +4,8 @@
   position: absolute;
   width: 3px;
   height: 25px;
-  background: $clr-light;
-  left:50%;
+  background: darken($clr , 35%);
+  left:49.9%;
   transform-origin: 50% 16.3em;
 }
 
@@ -13,5 +13,5 @@
 .mainLine{
   width: 6px;
   height: 35px;
-  background: $clr-dark;
+  background: darken($clr , 60%);
 }
