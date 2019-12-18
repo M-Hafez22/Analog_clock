@@ -4,17 +4,19 @@
 .hand{
   position: absolute;
   z-index: 12;
-  background-color: $clr-light;
+  background-color: $clr-dark;
   bottom: 50%;
   left: 50%;
   border: 1px solid $clr-light;
   border-top-left-radius: 40%;
   border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
   transform-origin: bottom;
-  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  transform: rotate(calc(var(--rotation) * 1deg));
 }
 .second-hand{
-  margin-left:1px;
+  margin-left:3px;
   width: 2px;
   height:$hand + 90px;
   border-color: $bg-clr-dark;
@@ -23,31 +25,30 @@
 }
   
 .hour-hand{
-  margin-left: -3px;
-  width: 12px;
+  margin-left: -2px;
+  width: 15px;
   height: $hand;
   z-index: 1;
 }
 
 .minute-hand{
-  margin-left: -1px; 
   height: $hand + 30px;
-  width: 8px;
+  width: 10px; 
   z-index: 2;
 }
+
 
 .dot{
   position: absolute;
   left: 49%;
-  top:49%;
+  top:48.5%; 
   z-index: 4;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   background-color: $clr-dark;
-  border: 5px solid $bg-clr-dark;
+  border: 6px solid $bg-clr-dark;
   border-radius: 50%;
   display: flex;
   justify-content: center;
  align-items: center;
 }
-
