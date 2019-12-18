@@ -1,0 +1,18 @@
+
+// All Lines
+.lines{
+  position: absolute;
+  width: 3px;
+  height: 25px;
+  background: $clr-light;
+  left:50%;
+  transform-origin: 50% 260px;
+}
+
+
+// Main Lines
+.mainLine{
+  width: 6px;
+  height: 35px;
+  background: $clr-dark;
+}
