@@ -1,0 +1,52 @@
+
+
+
+.hand{
+  position: absolute;
+  z-index: 12;
+  background-color: $clr-light;
+  bottom: 50%;
+  border: 1px solid $clr-light;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  transform-origin: bottom;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+.second-hand{
+  width: 2px;
+  left: 50.7%;
+  height:$hand + 100px;
+  border-color: $bg-clr-dark;
+  background-color: $bg-clr-dark;
+  z-index: 3;
+}
+  
+.hour-hand{
+  left: 50%;
+  width: 11px;
+  height: $hand;
+  z-index: 1;
+}
+
+.minute-hand{
+  left: 50.3%;  
+  height: $hand + 30px;
+  width: 8px;
+  z-index: 2;
+}
+
+.dot{
+  position: absolute;
+  left: 49.5%;
+  top:49%;
+  z-index: 4;
+  width: 20px;
+  height: 20px;
+  background-color: $clr-dark;
+  border: 5px solid $bg-clr-dark;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+
