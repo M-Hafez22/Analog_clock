@@ -1,6 +1,8 @@
 @import 'config';
 @import 'hands';
 @import 'clockLines';
+@import 'clockLines';
+@import 'date';
 
 body{
   height: 100vh;
@@ -14,7 +16,7 @@ body{
   z-index: 21;
   width: 550px;
   height: 550px;
-  background: $clock-bg;
+  background: lighten($clr , 20%);
   border: 15px solid darken($clr , 60%);
   border-radius: 50%;
   box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);

@@ -1,0 +1,24 @@
+
+
+.calendar{
+	position: absolute;
+	top: 30%;
+	left: 38%;
+	text-align: center;
+
+	#dayName{
+		margin-bottom: 5em;
+		padding: 0.25em .5em;
+		font-size: 2em;
+		background: lighten($clr , 15%);
+		color: darken($clr , 40%);
+		border: 2px solid $clr;
+		border-radius: 5%;
+	}  
+
+	#dateInfo{
+		@extend #dayName;
+		margin-top: 5em; 
+	}
+}
+

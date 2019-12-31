@@ -14,8 +14,10 @@ const  setClock = () => {
   setRotation(secondHand, secondsRatio);
   setRotation(minuteHand, minutesRatio);
   setRotation(hourHand, hoursRatio);
+
+  
 }
 // Run the hands ever second
-export const runHands  = setInterval(setClock, 1000);
+export const runHands  = () => {setInterval(setClock, 1000);}
 
 
