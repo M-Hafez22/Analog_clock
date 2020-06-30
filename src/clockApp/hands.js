@@ -13,10 +13,9 @@ const  setClock = () => {
   const hoursRatio = (minutesRatio + currentDate.getHours()) / 12;
   setRotation(secondHand, secondsRatio);
   setRotation(minuteHand, minutesRatio);
-  setRotation(hourHand, hoursRatio);
-
-  
+  setRotation(hourHand, hoursRatio);  
 }
+
 // Run the hands ever second
 export const runHands  = () => {setInterval(setClock, 1000);}
 
