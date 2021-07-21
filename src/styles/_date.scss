@@ -4,7 +4,7 @@
 #dayName{
 	position: absolute; 
 	top: 25%;
-	left: 32%;
+	left: 25%;
 	margin:0 0 5em 0;
 	padding: 0.25em .5em;
 	text-align: center;
@@ -19,6 +19,7 @@
 
 #dateInfo{
 	@extend #dayName;
+	left: 32%;
 	margin-top: 6em; 
 }
 
