@@ -1,26 +1,21 @@
-
-
-
-#dayName{
-	position: absolute; 
-	top: 25%;
-	left: 25%;
-	margin:0 0 5em 0;
-	padding: 0.25em .5em;
-	text-align: center;
-	font-size: 2em;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	background: lighten($clr , 15%);
-	color: darken($clr , 40%);
-	border: 2px solid $clr;
-	border-radius: 7px;
-}  
-
-#dateInfo{
-	@extend #dayName;
-	left: 32%;
-	margin-top: 6em; 
+#dayName {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin: 0 0 5em 0;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: lighten($clr, 15%);
+  color: darken($clr, 40%);
+  border: 2px solid $clr;
+  border-radius: 7px;
 }
 
-
+#dateInfo {
+  @extend #dayName;
+  left: 32%;
+  margin-top: 6em;
+}
