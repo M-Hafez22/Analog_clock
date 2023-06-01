@@ -4,8 +4,8 @@
   "description": "Analog Clock",
   "main": "index.js",
   "dependencies": {
-    "acorn": "^5.7.4",
-    "sass": "^1.23.7"
+    "acorn": "^8.8.2",
+    "sass": "^1.62.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
